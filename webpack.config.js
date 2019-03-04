@@ -24,7 +24,7 @@ module.exports = {
   externals: {
     // global app config object
     config: JSON.stringify({
-      apiUrl: "https://stormy-spire-13779.herokuapp.com" //http://localhost:4000'
+      apiUrl: "https://mighty-plateau-21687.herokuapp.com/" //http://localhost:4000'
     })
   }
 };
