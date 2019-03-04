@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cornflourblue/react-redux-registration-login-example.git"
+    "url": "https://github.com/herbowicz/react-redux-registration-login-example.git"
   },
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "start": "node server.js",
+    "build": "react-scripts build"
   },
   "dependencies": {
+    "express": "^4.16.4",
+    "express-favicon": "^2.0.1",
     "history": "^4.6.3",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
@@ -17,7 +20,8 @@
     "react-router-dom": "^4.1.2",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "react-scripts": "2.1.5"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
