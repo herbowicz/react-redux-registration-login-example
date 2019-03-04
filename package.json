@@ -7,8 +7,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --open",
-    // "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
+    "start": "webpack-dev-server --open"
   },
   "dependencies": {
     "history": "^4.6.3",
